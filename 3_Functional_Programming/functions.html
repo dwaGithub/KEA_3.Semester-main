@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functional Programming in Javascript</title>
+</head>
+<body>
+
+
+    <script>
+        /*function greetings(){
+            console.log("Hello World");
+        }
+        greetings();
+
+         */
+        const greetings = function greetings() {
+            console.log("Hello World");
+        };
+        greetings();
+
+        // Create a function called greetings that prints out "Hello World"
+        const greetings2 = function greetings2(){
+            console.log("Hello");
+        }
+
+        function whoToGreet(greetings){
+            greetings2();
+            console.log("World");
+        }
+        whoToGreet();
+
+    </script>
+</body>
+</html>

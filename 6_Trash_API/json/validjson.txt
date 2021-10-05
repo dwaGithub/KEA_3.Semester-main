@@ -1,0 +1,10 @@
+{
+"key": "value",
+"classroom": "teacher",
+"students": [
+    { "name": "Daniel"}
+
+],
+"isTeacherTeaching": true,
+"isClassStudying": false
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Functions 2</title>
+</head>
+<body>
+
+    <script>
+        const myFavouriteThings = ["Java", "🍆", false];
+
+        function printer(something){
+          console.log(something);
+        }
+        // HoF = High order Function (En funktion der tager en funktion som argument
+        // myFavouriteThings.forEach(printer);
+
+        // lambda
+        // myFavouriteThings.forEach(element => printer(element));
+
+        //myFavouriteThings.forEach((element, index, list) => printer(element));
+
+        // I can call my arguments anything I want
+        //myFavouriteThings.forEach(console.log);
+
+        // one-liner
+        // myFavouriteThings.forEach(element => printer(element));
+
+        // Anatomy of a lambda
+        /*
+        * (someArgument) [I name them]
+        * =>             [denotes lambda syntax]
+        * [...]          [Function/lambda body]
+        * */
+
+        // This is an empty lambda
+        myFavouriteThings.forEach(element => {});
+
+    </script>
+</body>
+</html>
